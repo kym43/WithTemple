@@ -1,0 +1,36 @@
+name: WishTemple
+options:
+  bundleIdPrefix: com.wishtemple
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_LANGUAGE: zh-Hant
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+targets:
+  WishTemple:
+    type: application
+    platform: iOS
+    sources:
+      - path: WishTemple
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wishtemple.WishTemple
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        INFOPLIST_KEY_CFBundleDisplayName: "心願廟 WishTemple"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: true
+    frameworks:
+      - RealityKit
+    knownRegions:
+      - zh-Hant
+      - en
+    developmentRegion: zh-Hant

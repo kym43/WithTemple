@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "home_tab" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Home" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "首頁" } }
+      }
+    },
+    "rituals_tab" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Rituals" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "儀式" } }
+      }
+    },
+    "encyclopedia_tab" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Encyclopedia" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "神明百科" } }
+      }
+    },
+    "profile_tab" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Profile" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "我的" } }
+      }
+    },
+    "home_placeholder_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Temple home coming soon" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "廟宇首頁即將登場" } }
+      }
+    },
+    "rituals_placeholder_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Rituals coming soon" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "儀式功能即將登場" } }
+      }
+    },
+    "encyclopedia_placeholder_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Encyclopedia coming soon" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "百科內容即將登場" } }
+      }
+    },
+    "profile_placeholder_title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Profile coming soon" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "個人頁面即將登場" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
