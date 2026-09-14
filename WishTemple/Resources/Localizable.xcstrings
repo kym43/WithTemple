@@ -1,52 +1,140 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "home_tab" : {
+    "encyclopedia_placeholder_title" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Home" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "首頁" } }
-      }
-    },
-    "rituals_tab" : {
-      "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Rituals" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "儀式" } }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encyclopedia coming soon"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "百科內容即將登場"
+          }
+        }
       }
     },
     "encyclopedia_tab" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Encyclopedia" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "神明百科" } }
-      }
-    },
-    "profile_tab" : {
-      "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Profile" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "我的" } }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encyclopedia"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "神明百科"
+          }
+        }
       }
     },
     "home_placeholder_title" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Temple home coming soon" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "廟宇首頁即將登場" } }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temple home coming soon"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "廟宇首頁即將登場"
+          }
+        }
       }
     },
-    "rituals_placeholder_title" : {
+    "home_tab" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Rituals coming soon" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "儀式功能即將登場" } }
-      }
-    },
-    "encyclopedia_placeholder_title" : {
-      "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Encyclopedia coming soon" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "百科內容即將登場" } }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "首頁"
+          }
+        }
       }
     },
     "profile_placeholder_title" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Profile coming soon" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "個人頁面即將登場" } }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile coming soon"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "個人頁面即將登場"
+          }
+        }
+      }
+    },
+    "profile_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的"
+          }
+        }
+      }
+    },
+    "rituals_placeholder_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rituals coming soon"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儀式功能即將登場"
+          }
+        }
+      }
+    },
+    "rituals_tab" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rituals"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儀式"
+          }
+        }
       }
     }
   },

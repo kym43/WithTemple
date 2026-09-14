@@ -7,32 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135EC6177D86B6B23756636C /* MockRitualServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */; };
+		28F8E6C4ABCE20294C99DC99 /* WishServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CEB3049C2939B93CB66A0D /* WishServicing.swift */; };
 		3506F070C82909E134D8F152 /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E9A14EC683872BA2C2ECA /* Temple.swift */; };
+		4F2AF23F1B7FDD2D68D1023A /* RitualServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD17C69C0A4149A4A1FBE58 /* RitualServicing.swift */; };
+		53139004430E5F05C254536C /* WishEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC968348E5F228E777E844 /* WishEntry.swift */; };
+		56BD664495A730DC09563946 /* MockWishServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57681A5BDFD5AE27C484AD74 /* MockWishServiceTests.swift */; };
 		6C5179F4FA7C51CDA75F0681 /* WishTempleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744739810225DFA8659C3F61 /* WishTempleApp.swift */; };
 		759434BFC39A5B330DD6ED82 /* DeityEncyclopediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322F343FC7346BB054E3ABA /* DeityEncyclopediaView.swift */; };
 		7E64406429171D9D120D40E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969336D0B82756D152598A96 /* Assets.xcassets */; };
 		8C5484B23B4FA9F4D2ECB5F0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10DABCC887703C28050EFD0 /* ProfileView.swift */; };
 		8E5F80ECD1DC1D7A024C83CA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 38BE8BFEDF3B122165409B15 /* Localizable.xcstrings */; };
+		908E10AA55659DFED386D5EC /* Ritual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE18567D87FBFD7D146904 /* Ritual.swift */; };
 		91C1800CFD1F6413518497FE /* RitualsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E0397ECED1A57FD2AFD7E /* RitualsView.swift */; };
 		A0A6026B2DA72BA6CA4B7ED5 /* TempleContentServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */; };
 		CCEB78C32AFC4872A65CC389 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADA16A19DEDA3025AD55CC /* HomeView.swift */; };
 		D1566C91E9E6FD7A7C92A58E /* Deity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FD8221AEAB7235DA8527F /* Deity.swift */; };
 		E82E90250ADB29DCC6866BD5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123E77DA01096E2B1695364 /* MainTabView.swift */; };
+		F02C6661DBAE37D1BE8DC99A /* LocalRecordServiceSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54B166A2EE1E35D29D45E2 /* LocalRecordServiceSupport.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6846CD93404242988062548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B8AEBFDD9F8AF9879D932B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E7DC443396EF44687A8633;
+			remoteInfo = WishTemple;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3322F343FC7346BB054E3ABA /* DeityEncyclopediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeityEncyclopediaView.swift; sourceTree = "<group>"; };
 		38BE8BFEDF3B122165409B15 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		3DD17C69C0A4149A4A1FBE58 /* RitualServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualServicing.swift; sourceTree = "<group>"; };
+		4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRitualServiceTests.swift; sourceTree = "<group>"; };
+		57681A5BDFD5AE27C484AD74 /* MockWishServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWishServiceTests.swift; sourceTree = "<group>"; };
 		6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleContentServicing.swift; sourceTree = "<group>"; };
-		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFE18567D87FBFD7D146904 /* Ritual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ritual.swift; sourceTree = "<group>"; };
 		70ADA16A19DEDA3025AD55CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		744739810225DFA8659C3F61 /* WishTempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleApp.swift; sourceTree = "<group>"; };
 		969336D0B82756D152598A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3061D1D039C814F904C644C /* WishTempleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WishTempleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CEB3049C2939B93CB66A0D /* WishServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishServicing.swift; sourceTree = "<group>"; };
 		BA7FD8221AEAB7235DA8527F /* Deity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deity.swift; sourceTree = "<group>"; };
 		BB5E9A14EC683872BA2C2ECA /* Temple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temple.swift; sourceTree = "<group>"; };
 		C10DABCC887703C28050EFD0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C123E77DA01096E2B1695364 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DE54B166A2EE1E35D29D45E2 /* LocalRecordServiceSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordServiceSupport.swift; sourceTree = "<group>"; };
 		EC5E0397ECED1A57FD2AFD7E /* RitualsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualsView.swift; sourceTree = "<group>"; };
+		F6AC968348E5F228E777E844 /* WishEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -40,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				BA7FD8221AEAB7235DA8527F /* Deity.swift */,
+				6DFE18567D87FBFD7D146904 /* Ritual.swift */,
 				BB5E9A14EC683872BA2C2ECA /* Temple.swift */,
+				F6AC968348E5F228E777E844 /* WishEntry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -48,7 +75,10 @@
 		1A80A11FC09DB4B3474D269E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				DE54B166A2EE1E35D29D45E2 /* LocalRecordServiceSupport.swift */,
+				3DD17C69C0A4149A4A1FBE58 /* RitualServicing.swift */,
 				6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */,
+				B7CEB3049C2939B93CB66A0D /* WishServicing.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -69,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A9BB73F26C43D31E1F136EB4 /* WishTemple */,
+				590AC24EEAC47803E4F18CBF /* WishTempleTests */,
 				FB9597C752365E9491DDB463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +110,15 @@
 				744739810225DFA8659C3F61 /* WishTempleApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		590AC24EEAC47803E4F18CBF /* WishTempleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */,
+				57681A5BDFD5AE27C484AD74 /* MockWishServiceTests.swift */,
+			);
+			path = WishTempleTests;
 			sourceTree = "<group>";
 		};
 		5A0E3CE9DDCEAACF7FEAD1C2 /* Resources */ = {
@@ -106,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				6B50097F8D66B028514C417C /* WishTemple.app */,
+				A3061D1D039C814F904C644C /* WishTempleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +154,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		731B7A48382FEAD5DA21CC7D /* WishTempleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E041CCA97BE0215316C1A4 /* Build configuration list for PBXNativeTarget "WishTempleTests" */;
+			buildPhases = (
+				E33890AEA4A63AC4F4C34A40 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31EBF1D55C3342790A8E4C41 /* PBXTargetDependency */,
+			);
+			name = WishTempleTests;
+			packageProductDependencies = (
+			);
+			productName = WishTempleTests;
+			productReference = A3061D1D039C814F904C644C /* WishTempleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F9E7DC443396EF44687A8633 /* WishTemple */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58EB9CEC95A838097DAC53E1 /* Build configuration list for PBXNativeTarget "WishTemple" */;
@@ -139,6 +198,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					731B7A48382FEAD5DA21CC7D = {
+						DevelopmentTeam = Z327797UXJ;
+					};
+					F9E7DC443396EF44687A8633 = {
+						DevelopmentTeam = Z327797UXJ;
+					};
+				};
 			};
 			buildConfigurationList = BDA7D4769A490CDB2649ADD3 /* Build configuration list for PBXProject "WishTemple" */;
 			developmentRegion = en;
@@ -156,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				F9E7DC443396EF44687A8633 /* WishTemple */,
+				731B7A48382FEAD5DA21CC7D /* WishTempleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,18 +248,57 @@
 				D1566C91E9E6FD7A7C92A58E /* Deity.swift in Sources */,
 				759434BFC39A5B330DD6ED82 /* DeityEncyclopediaView.swift in Sources */,
 				CCEB78C32AFC4872A65CC389 /* HomeView.swift in Sources */,
+				F02C6661DBAE37D1BE8DC99A /* LocalRecordServiceSupport.swift in Sources */,
 				E82E90250ADB29DCC6866BD5 /* MainTabView.swift in Sources */,
 				8C5484B23B4FA9F4D2ECB5F0 /* ProfileView.swift in Sources */,
+				908E10AA55659DFED386D5EC /* Ritual.swift in Sources */,
+				4F2AF23F1B7FDD2D68D1023A /* RitualServicing.swift in Sources */,
 				91C1800CFD1F6413518497FE /* RitualsView.swift in Sources */,
 				3506F070C82909E134D8F152 /* Temple.swift in Sources */,
 				A0A6026B2DA72BA6CA4B7ED5 /* TempleContentServicing.swift in Sources */,
+				53139004430E5F05C254536C /* WishEntry.swift in Sources */,
+				28F8E6C4ABCE20294C99DC99 /* WishServicing.swift in Sources */,
 				6C5179F4FA7C51CDA75F0681 /* WishTempleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33890AEA4A63AC4F4C34A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135EC6177D86B6B23756636C /* MockRitualServiceTests.swift in Sources */,
+				56BD664495A730DC09563946 /* MockWishServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		31EBF1D55C3342790A8E4C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E7DC443396EF44687A8633 /* WishTemple */;
+			targetProxy = D6846CD93404242988062548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		011DCFDBE71CDF2F7E199930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wishtemple.WishTempleTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishTemple.app/WishTemple";
+			};
+			name = Debug;
+		};
 		0CF1156E7959398009118BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -207,11 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wishtemple.WishTemple;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -230,11 +333,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wishtemple.WishTemple;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -277,6 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_LANGUAGE = "zh-Hant";
+				DEVELOPMENT_TEAM = Z327797UXJ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -338,6 +438,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_LANGUAGE = "zh-Hant";
+				DEVELOPMENT_TEAM = Z327797UXJ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -367,9 +468,35 @@
 			};
 			name = Debug;
 		};
+		F10F39C46280775A29427E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wishtemple.WishTempleTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishTemple.app/WishTemple";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		57E041CCA97BE0215316C1A4 /* Build configuration list for PBXNativeTarget "WishTempleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011DCFDBE71CDF2F7E199930 /* Debug */,
+				F10F39C46280775A29427E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		58EB9CEC95A838097DAC53E1 /* Build configuration list for PBXNativeTarget "WishTemple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

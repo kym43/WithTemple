@@ -8,6 +8,7 @@ options:
 settings:
   base:
     SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: Z327797UXJ
     DEVELOPMENT_LANGUAGE: zh-Hant
     MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
@@ -34,3 +35,15 @@ targets:
       - zh-Hant
       - en
     developmentRegion: zh-Hant
+
+  WishTempleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: WishTempleTests
+    dependencies:
+      - target: WishTemple
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wishtemple.WishTempleTests
+        GENERATE_INFOPLIST_FILE: true
