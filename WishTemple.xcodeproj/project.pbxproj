@@ -51,7 +51,7 @@
 		4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRitualServiceTests.swift; sourceTree = "<group>"; };
 		57681A5BDFD5AE27C484AD74 /* MockWishServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWishServiceTests.swift; sourceTree = "<group>"; };
 		6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleContentServicing.swift; sourceTree = "<group>"; };
-		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFE18567D87FBFD7D146904 /* Ritual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ritual.swift; sourceTree = "<group>"; };
 		70ADA16A19DEDA3025AD55CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		744739810225DFA8659C3F61 /* WishTempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleApp.swift; sourceTree = "<group>"; };
@@ -217,6 +217,9 @@
 					731B7A48382FEAD5DA21CC7D = {
 						DevelopmentTeam = Z327797UXJ;
 					};
+					F9E7DC443396EF44687A8633 = {
+						DevelopmentTeam = Z327797UXJ;
+					};
 				};
 			};
 			buildConfigurationList = BDA7D4769A490CDB2649ADD3 /* Build configuration list for PBXProject "WishTemple" */;
@@ -321,19 +324,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = Z327797UXJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "心願廟 WishTemple";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wishtemple.WishTemple;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -342,19 +344,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = Z327797UXJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "心願廟 WishTemple";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wishtemple.WishTemple;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
