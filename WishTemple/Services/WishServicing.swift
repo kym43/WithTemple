@@ -5,6 +5,7 @@ protocol WishServicing: Sendable {
     func createWish(_ wish: WishEntry) async throws
     func deleteWish(id: WishEntry.ID) async throws
     func deleteAllWishes() async throws
+    func exportWishes() async throws -> Data
 }
 
 actor MockWishService: WishServicing {
@@ -15,7 +16,7 @@ actor MockWishService: WishServicing {
     }
 
     func fetchWishes() async throws -> [WishEntry] {
-        wishes.sorted { $0.createdAt > $1.createdAt }
+        sortedWishes()
     }
 
     func createWish(_ wish: WishEntry) async throws {
@@ -28,5 +29,13 @@ actor MockWishService: WishServicing {
 
     func deleteAllWishes() async throws {
         wishes.removeAll()
+    }
+
+    func exportWishes() async throws -> Data {
+        try WishExportArchive.encode(wishes: sortedWishes())
+    }
+
+    private func sortedWishes() -> [WishEntry] {
+        wishes.sorted { $0.createdAt > $1.createdAt }
     }
 }
