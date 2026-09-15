@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E91DA1159317B8D43227DC5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 89A8F96F84803A8003F00966 /* PrivacyInfo.xcprivacy */; };
 		135EC6177D86B6B23756636C /* MockRitualServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */; };
 		28F8E6C4ABCE20294C99DC99 /* WishServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CEB3049C2939B93CB66A0D /* WishServicing.swift */; };
 		3506F070C82909E134D8F152 /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E9A14EC683872BA2C2ECA /* Temple.swift */; };
@@ -56,6 +57,7 @@
 		70ADA16A19DEDA3025AD55CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		744739810225DFA8659C3F61 /* WishTempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleApp.swift; sourceTree = "<group>"; };
 		85E23D313AE9431C51C635B7 /* WishTempleSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleSchema.swift; sourceTree = "<group>"; };
+		89A8F96F84803A8003F00966 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		969336D0B82756D152598A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3061D1D039C814F904C644C /* WishTempleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WishTempleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA527CE4B275459849E04EE /* SwiftDataWishServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWishServiceTests.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				969336D0B82756D152598A96 /* Assets.xcassets */,
 				38BE8BFEDF3B122165409B15 /* Localizable.xcstrings */,
+				89A8F96F84803A8003F00966 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				7E64406429171D9D120D40E0 /* Assets.xcassets in Resources */,
 				8E5F80ECD1DC1D7A024C83CA /* Localizable.xcstrings in Resources */,
+				0E91DA1159317B8D43227DC5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
