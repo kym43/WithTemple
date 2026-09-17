@@ -20,6 +20,7 @@
 		7E64406429171D9D120D40E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969336D0B82756D152598A96 /* Assets.xcassets */; };
 		8C5484B23B4FA9F4D2ECB5F0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10DABCC887703C28050EFD0 /* ProfileView.swift */; };
 		8E5F80ECD1DC1D7A024C83CA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 38BE8BFEDF3B122165409B15 /* Localizable.xcstrings */; };
+		9C3A82D6F0B1463AAE4B20C1 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E5F8B1C734D9EA0F46217 /* InfoPlist.xcstrings */; };
 		908E10AA55659DFED386D5EC /* Ritual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE18567D87FBFD7D146904 /* Ritual.swift */; };
 		91C1800CFD1F6413518497FE /* RitualsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E0397ECED1A57FD2AFD7E /* RitualsView.swift */; };
 		A0A6026B2DA72BA6CA4B7ED5 /* TempleContentServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */; };
@@ -54,6 +55,7 @@
 		6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleContentServicing.swift; sourceTree = "<group>"; };
 		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFE18567D87FBFD7D146904 /* Ritual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ritual.swift; sourceTree = "<group>"; };
+		6A2E5F8B1C734D9EA0F46217 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		70ADA16A19DEDA3025AD55CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		744739810225DFA8659C3F61 /* WishTempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleApp.swift; sourceTree = "<group>"; };
 		85E23D313AE9431C51C635B7 /* WishTempleSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleSchema.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				969336D0B82756D152598A96 /* Assets.xcassets */,
+				6A2E5F8B1C734D9EA0F46217 /* InfoPlist.xcstrings */,
 				38BE8BFEDF3B122165409B15 /* Localizable.xcstrings */,
 				89A8F96F84803A8003F00966 /* PrivacyInfo.xcprivacy */,
 			);
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E64406429171D9D120D40E0 /* Assets.xcassets in Resources */,
+				9C3A82D6F0B1463AAE4B20C1 /* InfoPlist.xcstrings in Resources */,
 				8E5F80ECD1DC1D7A024C83CA /* Localizable.xcstrings in Resources */,
 				0E91DA1159317B8D43227DC5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -329,7 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "心願廟 WishTemple";
+				INFOPLIST_KEY_CFBundleDisplayName = WishTemple;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -349,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "心願廟 WishTemple";
+				INFOPLIST_KEY_CFBundleDisplayName = WishTemple;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
