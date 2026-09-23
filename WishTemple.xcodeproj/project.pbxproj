@@ -26,6 +26,7 @@
 		A0A6026B2DA72BA6CA4B7ED5 /* TempleContentServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */; };
 		A77D7AE5FA599439629C6682 /* WishTempleSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E23D313AE9431C51C635B7 /* WishTempleSchema.swift */; };
 		AEB085A217F5ABC7FA152656 /* SwiftDataWishService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E301F808111C622BC2A46C6 /* SwiftDataWishService.swift */; };
+		C16FA3C513C0E595366EC5A8 /* DeityEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F792642881014FEF6AE48A6 /* DeityEncyclopediaTests.swift */; };
 		CCEB78C32AFC4872A65CC389 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADA16A19DEDA3025AD55CC /* HomeView.swift */; };
 		D1566C91E9E6FD7A7C92A58E /* Deity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FD8221AEAB7235DA8527F /* Deity.swift */; };
 		D8D9E45FCC950234BC5BECD3 /* WishPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA5ACB6FA74FA9F0261A20 /* WishPersistence.swift */; };
@@ -53,13 +54,14 @@
 		4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRitualServiceTests.swift; sourceTree = "<group>"; };
 		57681A5BDFD5AE27C484AD74 /* MockWishServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWishServiceTests.swift; sourceTree = "<group>"; };
 		6086F7AF78509A2C0B38AAC3 /* TempleContentServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleContentServicing.swift; sourceTree = "<group>"; };
-		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B50097F8D66B028514C417C /* WishTemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishTemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFE18567D87FBFD7D146904 /* Ritual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ritual.swift; sourceTree = "<group>"; };
 		6A2E5F8B1C734D9EA0F46217 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		70ADA16A19DEDA3025AD55CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		744739810225DFA8659C3F61 /* WishTempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleApp.swift; sourceTree = "<group>"; };
+		7F792642881014FEF6AE48A6 /* DeityEncyclopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeityEncyclopediaTests.swift; sourceTree = "<group>"; };
 		85E23D313AE9431C51C635B7 /* WishTempleSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTempleSchema.swift; sourceTree = "<group>"; };
-		89A8F96F84803A8003F00966 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		89A8F96F84803A8003F00966 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		969336D0B82756D152598A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3061D1D039C814F904C644C /* WishTempleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WishTempleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA527CE4B275459849E04EE /* SwiftDataWishServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWishServiceTests.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		590AC24EEAC47803E4F18CBF /* WishTempleTests */ = {
 			isa = PBXGroup;
 			children = (
+				7F792642881014FEF6AE48A6 /* DeityEncyclopediaTests.swift */,
 				4F7022265F9F5A07A98F2DBF /* MockRitualServiceTests.swift */,
 				57681A5BDFD5AE27C484AD74 /* MockWishServiceTests.swift */,
 				AFA527CE4B275459849E04EE /* SwiftDataWishServiceTests.swift */,
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16FA3C513C0E595366EC5A8 /* DeityEncyclopediaTests.swift in Sources */,
 				135EC6177D86B6B23756636C /* MockRitualServiceTests.swift in Sources */,
 				56BD664495A730DC09563946 /* MockWishServiceTests.swift in Sources */,
 				F923A7D4BD71EDCCBC9D03F7 /* SwiftDataWishServiceTests.swift in Sources */,
@@ -418,7 +422,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,7 +490,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

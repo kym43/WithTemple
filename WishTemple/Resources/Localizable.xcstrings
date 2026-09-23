@@ -1,19 +1,932 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "encyclopedia_placeholder_title" : {
-      "extractionState" : "manual",
+    "deity_baosheng_alias" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Encyclopedia coming soon"
+            "value" : "Dadaogong"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "百科內容即將登場"
+            "value" : "大道公"
+          }
+        }
+      }
+    },
+    "deity_baosheng_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traditionally associated with prayers for health, recovery, and community well-being. This cultural practice does not replace medical care."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳統上常見於祈求健康、康復與地方安寧；此類文化信仰不取代醫療照護。"
+          }
+        }
+      }
+    },
+    "deity_baosheng_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baosheng Emperor"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保生大帝"
+          }
+        }
+      }
+    },
+    "deity_baosheng_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Worship of Baosheng Emperor originated in Tong'an, Fujian, and was brought to Taiwan by migrants. Traditionally regarded as a deity of medicine, he became part of the spiritual and community life of many settlements."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保生大帝信仰源自福建同安一帶，隨移民傳入臺灣；傳統上被尊為醫藥之神，並成為許多聚落的信仰與生活寄託。"
+          }
+        }
+      }
+    },
+    "deity_baosheng_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow the temple's route and etiquette. For health concerns, seek qualified medical care; worship can offer cultural or spiritual support but is not diagnosis or treatment."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "依宮廟動線與禮序參拜。若有健康疑慮，請尋求合格醫療照護；信仰可作為文化或心靈支持，但不是診斷或治療。"
+          }
+        }
+      }
+    },
+    "deity_domain_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Common areas of devotion"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常見信仰面向"
+          }
+        }
+      }
+    },
+    "deity_fude_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tudigong"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "土地公"
+          }
+        }
+      }
+    },
+    "deity_fude_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Often associated with local peace, household well-being, farming, livelihood, and prosperity. Emphases vary by community."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常見於祈求地方平安、家宅安寧、農作、生計與福氣；各地信仰重點可能不同。"
+          }
+        }
+      }
+    },
+    "deity_fude_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fude Zhengshen"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "福德正神"
+          }
+        }
+      }
+    },
+    "deity_fude_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fude Zhengshen, commonly known as Tudigong, is a local earth deity widely worshipped in Taiwan. Shrines are often connected with settlements, farming, and everyday community life."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "福德正神俗稱土地公，是臺灣廣泛奉祀的地方土地神；廟祠常與聚落、農作及日常生活緊密相連。"
+          }
+        }
+      }
+    },
+    "deity_fude_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offerings and etiquette differ among local shrines. Follow on-site guidance, and connect wishes for livelihood or prosperity with practical, responsible action."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各地土地公廟的供品與禮序不同，請依現場說明參拜；對生計或福氣的祈願，也可配合實際且負責任的行動。"
+          }
+        }
+      }
+    },
+    "deity_guandi_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lord Guan"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關聖帝君"
+          }
+        }
+      }
+    },
+    "deity_guandi_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Often associated with loyalty, integrity, courage, and protection. Interpretations differ among traditions."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常見於對忠義、誠信、勇氣與守護的敬仰；不同信仰傳統的詮釋不盡相同。"
+          }
+        }
+      }
+    },
+    "deity_guandi_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guandi"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關帝"
+          }
+        }
+      }
+    },
+    "deity_guandi_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guan Yu was a historical figure of the late Eastern Han. His image of loyalty and courage was shaped by later literature, Confucian esteem, and imperial titles, gradually developing into a widespread tradition of worship."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關羽原為東漢末年歷史人物，其忠義勇武形象經後世文學、儒家推崇與歷代追封，逐漸形成廣泛信仰。"
+          }
+        }
+      }
+    },
+    "deity_guandi_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow the route and etiquette of the temple you visit. If loyalty or integrity inspires you, consider turning that intention into a practical action."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "依參訪宮廟的動線與禮序參拜；若以忠義或誠信自勉，可把祈願化為具體可實踐的行動。"
+          }
+        }
+      }
+    },
+    "deity_mazu_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heavenly Holy Mother"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天上聖母"
+          }
+        }
+      }
+    },
+    "deity_mazu_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People commonly pray for safe journeys, protection at sea, and community well-being. Traditions vary among temples."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常見於祈求出入平安、海上守護與地方安寧；各宮廟傳統可能不同。"
+          }
+        }
+      }
+    },
+    "deity_mazu_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mazu"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "媽祖"
+          }
+        }
+      }
+    },
+    "deity_mazu_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mazu worship came to Taiwan with migrants from China's southeastern coast. It was closely connected to hopes for safe sea crossings and later became one of Taiwan's widespread folk beliefs."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "媽祖信仰由中國東南沿海隨移民來臺，早期與渡海、航行平安密切相關，後來成為臺灣廣泛的民間信仰之一。"
+          }
+        }
+      }
+    },
+    "deity_mazu_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilgrimages, festivals, and etiquette vary by temple. Read the temple's guidance first and follow its route and on-site practices."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各宮廟的進香、祭典與禮序不同。參訪前可先閱讀廟方說明，依現場動線與規範參拜。"
+          }
+        }
+      }
+    },
+    "deity_origin_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Origins and context"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由來與脈絡"
+          }
+        }
+      }
+    },
+    "deity_wenchang_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenchang Zitong Emperor"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文昌梓潼帝君"
+          }
+        }
+      }
+    },
+    "deity_wenchang_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traditionally associated with scholarly achievement, learning, and examinations, and often visited by students."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳統上被視為與功名、文運及考試相關的神明，常有學子前往參拜。"
+          }
+        }
+      }
+    },
+    "deity_wenchang_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenchang Emperor"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文昌帝君"
+          }
+        }
+      }
+    },
+    "deity_wenchang_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenchang Emperor is also known as Wenchang Zitong Emperor, Zitong Emperor, or Lord Wenchang, and is enshrined in many Wenchang shrines and temples in Taiwan."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文昌帝君又稱文昌梓潼帝君、梓潼帝君或文昌君，在臺灣許多文昌祠與廟宇中奉祀。"
+          }
+        }
+      }
+    },
+    "deity_wenchang_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A visit can be a moment to clarify learning goals. Offerings and etiquette vary by temple, while preparation still rests on sustained study."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "參拜也可作為整理學習目標的時刻；供品與禮序依各廟規範，考試準備仍以實際學習為本。"
+          }
+        }
+      }
+    },
+    "deity_worship_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visiting and worship notes"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "參拜提醒"
+          }
+        }
+      }
+    },
+    "deity_xuantian_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zhenwu Emperor"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "真武大帝"
+          }
+        }
+      }
+    },
+    "deity_xuantian_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Often associated with protection, courage, safety, and community guardianship. Interpretations and ritual practices vary by temple."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常見於守護、勇氣、平安與地方安寧等信仰面向；各宮廟的詮釋與儀式不盡相同。"
+          }
+        }
+      }
+    },
+    "deity_xuantian_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xuantian Shangdi"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玄天上帝"
+          }
+        }
+      }
+    },
+    "deity_xuantian_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xuantian Shangdi is also known as Zhenwu Emperor and is traditionally associated with the north and the Xuanwu symbol. The faith reached Taiwan early and became connected with local history and guardian traditions."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玄天上帝又稱真武大帝，傳統上與北方及玄武意象相關；其信仰傳入臺灣甚早，並與地方發展及守護信仰相連。"
+          }
+        }
+      }
+    },
+    "deity_xuantian_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temple titles, festivals, offerings, and routes differ by tradition. Read the temple's guidance and follow its on-site etiquette."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各宮廟的稱號、祭典、供品與參拜動線可能不同，請先閱讀廟方說明並依現場禮序參拜。"
+          }
+        }
+      }
+    },
+    "deity_yuelao_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Old Man Under the Moon"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月下老人"
+          }
+        }
+      }
+    },
+    "deity_yuelao_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Often associated with hopes for a good relationship and interpersonal harmony. Some local traditions describe several kinds of affinity."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常見於祈求良緣與人際和合；部分地方也以多種緣分介紹月老文化。"
+          }
+        }
+      }
+    },
+    "deity_yuelao_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yue Lao"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月老"
+          }
+        }
+      }
+    },
+    "deity_yuelao_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Old Man Under the Moon is associated with human relationships in Chinese folk belief. Temples preserve different traditions and ritual contexts."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月下老人是華人民間信仰中與人際緣分相關的神明；不同廟宇對其信仰脈絡與儀式各有傳承。"
+          }
+        }
+      }
+    },
+    "deity_yuelao_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Red-thread customs, offerings, and the order of worship vary by temple. Follow local guidance and respect both your own and others' wishes."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紅線、供品與參拜順序因廟而異；請以該廟公告或人員說明為準，並尊重自己與他人的意願。"
+          }
+        }
+      }
+    },
+    "deity_zhusheng_alias" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zhusheng Ma"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "註生媽"
+          }
+        }
+      }
+    },
+    "deity_zhusheng_domain" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traditionally associated with hopes concerning pregnancy, childbirth, and children's well-being. Belief does not guarantee reproductive or medical outcomes."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳統上與求子、孕產及孩童平安等祈願相關；信仰不保證生育或醫療結果。"
+          }
+        }
+      }
+    },
+    "deity_zhusheng_name" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zhusheng Niangniang"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "註生娘娘"
+          }
+        }
+      }
+    },
+    "deity_zhusheng_origin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zhusheng Niangniang, commonly called Zhusheng Ma, is a widely worshipped folk deity associated with childbirth and child care. Some temples enshrine her together with the Twelve Nannies."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "註生娘娘俗稱註生媽，是臺灣民間廣泛奉祀、與生育及護兒文化相關的神祇；部分宮廟亦配祀十二婆姐。"
+          }
+        }
+      }
+    },
+    "deity_zhusheng_worship" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow local temple etiquette while respecting personal privacy and avoiding pressure about fertility or a child's sex. For reproductive or pregnancy concerns, consult a qualified medical professional."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "依當地宮廟禮序參拜，並尊重個人隱私，避免對生育或胎兒性別施加壓力；若有生殖或孕產疑慮，請諮詢合格醫療專業人員。"
+          }
+        }
+      }
+    },
+    "encyclopedia_cultural_note" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This draft is based on public cultural references. Sources, wording, and regional differences still require cultural-advisor review before release."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "內容依公開文化資料整理，目前為產品樣稿；正式發布前仍需完成來源、用詞與地方差異的文化顧問審閱。"
+          }
+        }
+      }
+    },
+    "encyclopedia_empty_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reviewed cultural entries will appear here."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成整理的文化內容會顯示在這裡。"
+          }
+        }
+      }
+    },
+    "encyclopedia_empty_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No entries yet"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚無百科內容"
+          }
+        }
+      }
+    },
+    "encyclopedia_error_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check your connection and try again."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請檢查連線後再試一次。"
+          }
+        }
+      }
+    },
+    "encyclopedia_error_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to load the encyclopedia"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法載入百科"
+          }
+        }
+      }
+    },
+    "encyclopedia_intro_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore the origins, cultural context, and temple-specific differences behind familiar deities."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從由來、信仰脈絡到各地宮廟差異，認識熟悉的神明文化。"
+          }
+        }
+      }
+    },
+    "encyclopedia_intro_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meet Taiwan's folk deities"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "認識臺灣神明文化"
+          }
+        }
+      }
+    },
+    "encyclopedia_loading" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading encyclopedia…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在載入百科…"
+          }
+        }
+      }
+    },
+    "encyclopedia_open_detail_hint" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the cultural entry"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟文化介紹"
+          }
+        }
+      }
+    },
+    "encyclopedia_review_status" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draft · Cultural review pending"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "內容樣稿・待文化顧問校訂"
+          }
+        }
+      }
+    },
+    "encyclopedia_search_prompt" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search names or areas of devotion"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋神明、別稱或信仰面向"
+          }
+        }
+      }
+    },
+    "encyclopedia_source_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "參考資料"
           }
         }
       }
@@ -103,6 +1016,23 @@
         }
       }
     },
+    "retry_action" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再試一次"
+          }
+        }
+      }
+    },
     "rituals_placeholder_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -133,6 +1063,74 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "儀式"
+          }
+        }
+      }
+    },
+    "source_executive_yuan" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Executive Yuan: Folk Beliefs in Taiwan"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行政院：臺灣的民間信仰"
+          }
+        }
+      }
+    },
+    "source_moi_religion_map" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ministry of the Interior: Taiwan Religious Culture Map"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "內政部：臺灣宗教文化地圖"
+          }
+        }
+      }
+    },
+    "source_ntpc_civil_affairs" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Taipei City Civil Affairs Department: Yue Lao Culture"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新北市政府民政局：月老文化"
+          }
+        }
+      }
+    },
+    "source_taiwan_historica_dictionary" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taiwan Historica: Dictionary of Taiwanese Folk Artifacts"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "國史館臺灣文獻館：臺灣民俗文物辭典"
           }
         }
       }

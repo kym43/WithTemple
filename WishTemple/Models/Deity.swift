@@ -8,4 +8,6 @@ struct Deity: Identifiable, Hashable, Codable {
     var domain: String
     var howToWorship: String
     var imageName: String
+    var sourceName: String? = nil
+    var sourceURL: URL? = nil
 }
